@@ -13,11 +13,11 @@ mongoose.connect(mongoUri, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
-  console.log('Kết nối cơ sở dữ liệu thành công!');
+  console.log('Connection to the database was successful!');
 }).catch(err => {
-  console.error('Kết nối cơ sở dữ liệu thất bại:', err);
+  console.error('Connection to the database failed:', err);
 });
 
 app.listen(port, () => {
-  console.log(`Server đang lắng nghe tại http://localhost:${port}`);
+  console.log(`Server is listening at http://localhost:${port}`);
 });
