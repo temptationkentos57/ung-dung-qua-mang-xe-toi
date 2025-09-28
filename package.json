@@ -1,0 +1,21 @@
+{
+  "name": "ung-dung-qua-mang-xe-toi",
+  "version": "1.0.0",
+  "description": "Ứng dụng quản lý chuyến đi làm việc từ xa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "jest": "^26.6.0"
+  },
+  "author": "Tên của bạn",
+  "license": "MIT"
+}
